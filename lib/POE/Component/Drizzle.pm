@@ -178,7 +178,7 @@ POE::Component::Drizzle - asynchronous non-blocking mysql/drizzle calls in POE
 
 =head1 DESCRIPTION
 
-POE::Component::Drizzle is a bindings for libdrizzle with Net::Drizzle.
+POE::Component::Drizzle is a POE bindings for libdrizzle with Net::Drizzle.
 You can send the queries with non-blocking I/O.
 
 =head1 AUTHOR
