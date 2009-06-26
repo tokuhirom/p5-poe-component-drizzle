@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use base qw/Exporter/;
 use Net::Drizzle ':constants';
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 our @EXPORT = @Net::Drizzle::EXPORT_OK;
 use POE;
 use IO::Poll qw/POLLIN POLLOUT/;
@@ -213,7 +213,13 @@ You can send the queries with non-blocking I/O.
 
 Tokuhiro Matsuno E<lt>tokuhirom  slkjfd gmail.comE<gt>
 
+=head1 THANKS TO
+
+kazuhooku
+
 =head1 SEE ALSO
+
+L<Net::Drizzle>, L<POE>
 
 =head1 LICENSE
 
